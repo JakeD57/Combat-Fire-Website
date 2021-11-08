@@ -12,7 +12,7 @@
 html, 
 body {
     background-color: #ffffff;
-    color: #b8860b;
+    color: #5f5f5f;
     font-family: Lato, Arial, sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -57,24 +57,25 @@ h1, h2, h3 {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #f5f5f5;
+    color: #ffffff;
     font-size: 240%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
+    font-weight: 600;
     
 }
 
 h2 {
     font-size: 180%;
-    word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
-    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+    color: #956900;
+    font-weight: 500;
 }
 
 h2:after{
@@ -87,6 +88,10 @@ h2:after{
     margin-top: 30px;
 }
 
+h2.testimonial-h2 {
+    color: #ffffff;
+}
+
 .testimonial-h2:after {
     display: block;
     height: 2px;
@@ -95,6 +100,7 @@ h2:after{
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
+    
 }
 
 /* ---------PARAGRAPHS-----------*/
@@ -308,7 +314,8 @@ header{
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 18px 0px;
-    color: #b8860b;
+    color: #000000;
+    font-weight: 400;
   
 }
 
@@ -411,8 +418,8 @@ header{
 }
 
 .works-step div {
-    color: #b8860b;
-    border: 2px solid #b8860b;
+    color: #956900;
+    border: 2px solid #956900;
     display: inline-block;
     border-radius: 50%;
     height: 55px;
@@ -440,6 +447,7 @@ header{
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .city-feature {
@@ -465,6 +473,7 @@ blockquote {
     line-height: 145%;
     position: relative;
     margin-top: 40px;
+    color: #bfbfbf;
 }
 
 blockquote:before {
@@ -474,12 +483,16 @@ blockquote:before {
     position: absolute;
     top: -5px;
     left: -3px;
+    color: #ffffff;
+    font-weight: 600;
 }
 
 cite {
     font-size: 90%;
     margin-top: 25px;
     display: block;
+    color: #ffffff;
+    font-weight: 600;
 }
 
 
@@ -510,7 +523,7 @@ cite img {
 }
 
 .plan-box div {
-    padding: 15px;
+    padding: 20px;
     border-bottom: 1px solid #e8e8e8;
 }
 
@@ -521,7 +534,7 @@ cite img {
 }
 
 .plan-box div:last-child {
-    text-align: center;
+    text-align: left;
     border: 0;
 }
 
@@ -543,9 +556,9 @@ cite img {
 /*----------------------------*/
 
 .plan-box2 {
-    background-color:#ffffff;
+    background-color:#fafafa;
     border-radius: 5px;
-    padding: 15px;
+    padding: 20px;
     -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
     
@@ -561,14 +574,14 @@ cite img {
     margin-left: 10%;
     border: 2px solid #b08a49;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .logo3 {
     width: 80%;
     margin-left: 10%;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 30px;
     
 }
 
@@ -608,7 +621,7 @@ footer {
 .social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
-    color: #888888;
+    color: #9f9f9f;
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
 }
@@ -642,7 +655,7 @@ footer {
 
 
 footer p {
-    color: #888888;
+    color: #9f9f9f;
     margin-top: 20px;
     text-align: center;
     
